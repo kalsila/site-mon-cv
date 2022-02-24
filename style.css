@@ -53,3 +53,63 @@ body{
             font-size:10px ;
         }
     }
+    @media screen and (max-width:380px){
+
+
+        header{
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+            height: 400px;
+            font-size: 40px;
+            width: 100%;
+           
+        }
+        
+        img{
+            width: 80%;
+            height: 60%;
+            border-radius: 50%;
+           float: right;
+            
+        }
+
+        .contenaire{
+            display: block;
+            justify-content: space-around;
+            margin-top: 15%;
+            
+            font-size: 20px;
+        }
+        
+        h3{
+            font-size: 15px;
+        }
+        
+
+    }
+    @media screen and (max-width:430px){
+
+
+        .contenaire{
+            display: block;
+            justify-content: space-around;
+            margin-top: 15%;
+            
+            font-size: 20px;
+        }
+
+
+        header{
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+            height: 200px;
+            font-size: 40px;
+            width: 100%;
+            padding-top: 70px;
+           
+        }
+        
+
+    }
